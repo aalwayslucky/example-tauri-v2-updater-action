@@ -21,14 +21,7 @@
         "icons/128x128@2x.png",
         "icons/icon.icns",
         "icons/icon.ico"
-      ],
-      "updater": {
-        "active": true,
-        "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IHJzaWduIGVuY3J5cHRlZCBzZWNyZXQga2V5ClJXUlRZMEl5T0RDQk9tMTZIeGhnOU8xcGM4QldLWm5SOVluTk81cFJ6WnNNRU5PZVl2Y0FBQkFBQUFBQUFBQUFBQUlBQUFBQVovVWw1Q3NnRWhsKzVqQzdicVRCcHZTNWlydDdudkxkWUNHTXIzaUhsZ2FXNDNRckY0UlJ4eXZRODZrNENlR3dEdTArQVVuTWRaa1NwcCs2aXFwRnZrNk9TMnQ5THNCeFp4Z2F6dldGd3U3WFVTUnpONjNidCtldEJIWmduMDAxK2Iwejk2c2J0OEk9Cg",
-        "windows": {
-          "installMode": "passive"
-        }
-      }
+      ]
     },
     "security": {
       "csp": null
@@ -47,10 +40,16 @@
     "shell": {
       "open": true
     },
+
     "updater": {
+      "active": true,
       "endpoints": [
-        "https://github.com/i-c-b/example-tauri-v2-updater-action/releases/latest/download/latest.json"
-      ]
+        "https://github.com/aalwayslucky/example-tauri-v2-updater-action/releases/latest/download/latest.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IHJzaWduIGVuY3J5cHRlZCBzZWNyZXQga2V5ClJXUlRZMEl5T0RDQk9tMTZIeGhnOU8xcGM4QldLWm5SOVluTk81cFJ6WnNNRU5PZVl2Y0FBQkFBQUFBQUFBQUFBQUlBQUFBQVovVWw1Q3NnRWhsKzVqQzdicVRCcHZTNWlydDdudkxkWUNHTXIzaUhsZ2FXNDNRckY0UlJ4eXZRODZrNENlR3dEdTArQVVuTWRaa1NwcCs2aXFwRnZrNk9TMnQ5THNCeFp4Z2F6dldGd3U3WFVTUnpONjNidCtldEJIWmduMDAxK2Iwejk2c2J0OEk9Cg",
+      "windows": {
+        "installMode": "passive"
+      }
     }
   }
 }
